@@ -1,0 +1,15 @@
+<TorsionProjectOptions>
+    <Address>127.0.0.1</Address>
+    <Password>password</Password>
+    <Port>6060</Port>
+    <LastConfig>Debug</LastConfig>
+    <Breakpoints></Breakpoints>
+    <Bookmarks></Bookmarks>
+    <OpenFiles>        <File ScrollX="0" ScrollY="300" Active="true">marble\data\interiorMaterials.cs</File>
+        <File ScrollX="0" ScrollY="0">marble\data\shapeMaterials.cs</File>
+        <File ScrollX="215" ScrollY="539">marble\client\ui\playMissionGui.gui</File>
+        <File ScrollX="0" ScrollY="291">marble\server\scripts\marble.cs</File>
+        <File ScrollX="0" ScrollY="392">marble\server\scripts\powerups.cs</File>
+        <File ScrollX="0" ScrollY="21">marble\server\scripts\game.cs</File>
+    </OpenFiles>
+</TorsionProjectOptions>

@@ -1,0 +1,31 @@
+<TorsionProject>
+    <Name>MBG</Name>
+    <WorkingDir></WorkingDir>
+    <EntryScript>main.cs</EntryScript>
+    <DebugHook>dbgSetParameters( #port#, "#password#", true );</DebugHook>
+    <Mods>        <Folder>common</Folder>
+        <Folder>marble</Folder>
+    </Mods>
+    <ScannerExts>cs; gui</ScannerExts>
+    <Configs>        <Config>            <Name>Debug</Name>
+            <Executable>MBUltra64_DEBUG.exe</Executable>
+            <Arguments></Arguments>
+            <HasExports>true</HasExports>
+            <Precompile>true</Precompile>
+            <InjectDebugger>true</InjectDebugger>
+            <UseSetModPaths>false</UseSetModPaths>
+        </Config>
+        <Config>            <Name>Release</Name>
+            <Executable>MBUltra64.exe</Executable>
+            <Arguments></Arguments>
+            <HasExports>false</HasExports>
+            <Precompile>true</Precompile>
+            <InjectDebugger>true</InjectDebugger>
+            <UseSetModPaths>false</UseSetModPaths>
+        </Config>
+    </Configs>
+    <SearchURL></SearchURL>
+    <SearchProduct>TGE</SearchProduct>
+    <SearchVersion>HEAD</SearchVersion>
+    <ExecModifiedScripts>true</ExecModifiedScripts>
+</TorsionProject>
